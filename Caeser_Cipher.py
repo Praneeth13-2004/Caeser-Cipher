@@ -1,6 +1,5 @@
 import streamlit as st
 
-# Caesar Cipher Function
 def caesar_cipher(text, shift, mode="encrypt"):
     result = ""
     if mode == "decrypt":
@@ -15,15 +14,12 @@ def caesar_cipher(text, shift, mode="encrypt"):
     return result
 
 
-# Streamlit UI
-st.title("🔐 Caesar Cipher App")
+st.title("Caesar Cipher App")
 
-# User Inputs
 text = st.text_area("Enter text:")
 shift = st.number_input("Enter shift value:", min_value=1, max_value=25, value=3)
 mode = st.radio("Choose mode:", ["Encrypt", "Decrypt"])
 
-# Process
 if st.button("Run Caesar Cipher"):
     if text.strip():
         output = caesar_cipher(text, shift, mode.lower())
@@ -31,3 +27,4 @@ if st.button("Run Caesar Cipher"):
         st.success(output)
     else:
         st.warning("Please enter some text to proceed.")
+
