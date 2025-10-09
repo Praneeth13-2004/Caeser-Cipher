@@ -29,7 +29,7 @@ You need to have Python installed (Python 3.8+ is recommended).
 Installation
 Clone the Repository:
 
-git clone [[https://github.com/your-username/caesar-cipher-app.git]([https://github.com/Praneeth13-2004/Caeser-Cipher](https://github.com/Praneeth13-2004/Caeser-Cipher))]
+git clone **https://github.com/Praneeth13-2004/Caeser-Cipher**
 cd caesar-cipher-app
 
 Install Dependencies:
@@ -63,6 +63,7 @@ Advanced Ciphers: Integration of more complex algorithms, such as the Vigenère 
 Cryptanalysis Module: Addition of a Frequency Analysis Tool to visually chart letter occurrences, demonstrating how easily the Caesar cipher can be broken.
 
 Brute-Force Solver: Implementation of a feature that automatically runs decryption against all 25 possible keys, instantly revealing the plaintext, thus completing the practical demonstration of its inherent weakness.
+
 
 
 
