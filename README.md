@@ -1,5 +1,6 @@
 **Code by**
 ***Raavinuthala Sai Praneeth Karthikeya***
+
 ***Yatharth Jain***
 
 Advanced Caesar Cipher Web Tool
@@ -61,5 +62,6 @@ Advanced Ciphers: Integration of more complex algorithms, such as the Vigenère 
 Cryptanalysis Module: Addition of a Frequency Analysis Tool to visually chart letter occurrences, demonstrating how easily the Caesar cipher can be broken.
 
 Brute-Force Solver: Implementation of a feature that automatically runs decryption against all 25 possible keys, instantly revealing the plaintext, thus completing the practical demonstration of its inherent weakness.
+
 
 
