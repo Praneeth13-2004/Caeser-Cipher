@@ -1,4 +1,11 @@
+"""
+@authors: Raavinuthala Sai Praneeth Karthikeya and Yatharth Jain
+Project: Caesar Cipher (Shift Cipher)
+"""
+
+
 import streamlit as st
+
 
 def caesar_cipher(text, shift, mode="encrypt"):
     result = ""
@@ -86,3 +93,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
