@@ -1,8 +1,8 @@
-**Authors**
+**Author**
 
 ***Raavinuthala Sai Praneeth Karthikeya***
 
-***Yatharth Jain***
+
 
 Advanced Caesar Cipher Web Tool
 An interactive, web-based tool built with Streamlit and Python to demonstrate the principles of the classic Caesar Cipher, serving as an excellent educational introduction to symmetric-key cryptography.
