@@ -1,5 +1,5 @@
 """
-@authors: Raavinuthala Sai Praneeth Karthikeya and Yatharth Jain
+@authors: Raavinuthala Sai Praneeth Karthikeya
 Project: Caesar Cipher (Shift Cipher)
 """
 
@@ -36,14 +36,14 @@ def main():
     with st.sidebar:
         st.header("Cipher Controls")
         
-        # Capture input text in session state for persistence
+        
         input_text = st.text_area("Enter text for processing:", key='input_key', height=200, value=st.session_state.input_text)
         st.session_state.input_text = input_text
         
-        # Use a slider for a more interactive key selection
+        
         shift_value = st.slider("Select shift value (Key):", 1, 25, 3, key='shift_key')
         
-        # Mode selection
+        
         mode_selection = st.radio("Choose operation mode:", ["Encrypt", "Decrypt"], key='mode_key')
         
         st.markdown("---")
